@@ -64,12 +64,12 @@
         </style>
     </head>
     <body>
-        In production...
         <div class="flex-center position-ref full-height">
             <div class="content">
-                <div class="title m-b-md">
+                <div class="title">
                     SciPack
                 </div>
+                New feature coming in {{ \App\Http\Controllers\WelcomeMessage::nextFeatureIn() }} seconds.
             </div>
         </div>
     </body>
